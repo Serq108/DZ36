@@ -1,0 +1,64 @@
+ul.hr {
+    margin-top: 0px; /* Обнуляем значение отступов */
+    padding: 0px; /* Значение полей */
+  }
+  
+  ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 20px; /* Поля вокруг текста */
+  }
+.title {
+    position: relative;
+    width: 100%;
+    top: 0px;
+    text-align: center;
+    color: #3b6484;
+    height: 150px;
+    background-color: #D0F9DE;
+  }
+  
+  .inner-text {
+    padding-top: 10px; 
+  }
+
+  .header-content {
+    position: relative;
+    width: 100%;
+    top: 4px;
+    left: 0%;
+    height: 90%;
+    background-color: #BFE1DA;
+  }
+
+  .category {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    color: #3b6484;
+    height: 30px;
+    background-color: #BFE1DA;
+  }
+
+  .content {
+    position: relative;
+    width: 100%;
+    color: #3b6484;
+    padding: 0px;
+    height: 50%;
+    margin: 0 auto 40px;
+    margin-bottom: 310px; 
+    top: 10px;
+    background-color: #D0F9DE;
+  }
+  
+  .subtitle {
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    color: #3b6484;
+    height: 50px;
+    background-color: #D0F9DE;
+  }

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should render login container 1`] = `
+<Login>
+  <div
+    className="login-form"
+  >
+    <h1>
+      Please Login 
+    </h1>
+    <Link
+      className="reg-link"
+      to="/reg"
+    >
+      <a
+        className="reg-link"
+        href="/reg"
+        onClick={[Function]}
+      >
+        or register
+      </a>
+    </Link>
+    <input
+      onChange={[Function]}
+      placeholder="Login"
+      type="text"
+    />
+    <input
+      name="password"
+      onChange={[Function]}
+      placeholder="password"
+      type="password"
+    />
+    <input
+      onClick={[Function]}
+      type="submit"
+      value="log in"
+    />
+  </div>
+</Login>
+`;
